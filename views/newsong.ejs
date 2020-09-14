@@ -1,0 +1,25 @@
+<%- include("partials/header"); -%>
+<div class="container">
+    <h5>Enter new song into database</h5>
+
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="card">
+                <div class="card-body">
+
+                    <form action="/newsong" method="post">
+                        <div>
+                            <label>Song Name:</label>
+                            <input type="text" name="songName" />
+                        </div>
+                        <div>
+                            <label>Artist Name:</label>
+                            <input type="text" name="songArtist" />
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-dark">Enter</button>
+                        </div>
+                    </form>
+
+                    <a class="btn btn-light btn-lg" href="/logout" role="button">Log Out</a>
+                    <%- include('partials/footer') %>

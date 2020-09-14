@@ -1,0 +1,21 @@
+body{
+background-image: url('/static/images/bg-song.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+} 
+h1,h5,h6{
+  color: antiquewhite;
+}
+.navbar{
+  background-color:#A3EBB1;
+  padding-left: 10%;
+}
+.logout-btn{
+  background-color:#A3EBB1;
+ 
+}
+.container{
+  padding-left: 0px;
+  padding-top: 5%;
+}

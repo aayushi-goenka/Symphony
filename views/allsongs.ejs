@@ -1,0 +1,22 @@
+<%- include("partials/header"); -%>
+<div class="container">
+<h5>All Songs</h5>
+<br>
+
+
+
+<%  songs.forEach(function(song){ %>
+
+<h6>Song Name: <%=song.name%></h6>
+<h6>Song Artist: <%=song.artist%></h6>
+<br>
+
+<% }) %>
+<a class="btn btn-light btn-lg logout-btn" href="/logout" role="button">Log Out</a>
+</div>
+
+
+
+
+
+<%- include("partials/footer"); -%>
